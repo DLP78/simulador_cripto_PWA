@@ -1,0 +1,19 @@
+# Dependências
+node_modules/
+npm-debug.log*
+
+# Ambiente
+.env
+.env.local
+
+# Parcel
+.parcel-cache/
+dist/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,25 @@
+body {
+  background: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.buttons {
+  margin: 10px 0;
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px;
+}
+/*# sourceMappingURL=public.d91c94e1.css.map */
