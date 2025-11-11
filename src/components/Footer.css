@@ -1,0 +1,10 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  

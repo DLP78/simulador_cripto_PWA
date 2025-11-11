@@ -1,0 +1,22 @@
+
+{
+  "name": "Cripto Simulation",
+  "short_name": "Cripto Sim",
+  "description": "Um simulador de investimentos em criptomoedas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#4e73df",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

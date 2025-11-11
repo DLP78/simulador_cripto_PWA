@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simulador Cripto PWA</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cripto Simulation</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+  <meta name="theme-color" content="#4e73df">
+</head>
+<body>
+  <div id="root"></div> <!-- Aqui o React vai montar -->
+
+  <!-- SCRIPT PARA INICIAR O REACT -->
+  <script type="module" src="../src/index.js"></script>
+
+  <!-- SCRIPT PARA REGISTRAR O SERVICE WORKER -->
+  <script type="module">
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register(new URL('./service-worker.js', import.meta.url))
+          .then(registration => {
+            console.log('Service Worker registrado com sucesso:', registration);
+          })
+          .catch(error => {
+            console.log('Falha ao registrar o Service Worker:', error);
+          });
+      });
+    }
+  </script>
+</body>
 </html>
 

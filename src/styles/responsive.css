@@ -1,0 +1,53 @@
+/* Tablets */
+@media (max-width: 1024px) {
+  .container {
+    padding: 15px;
+    max-width: 100%;
+  }
+  
+  .chart-container {
+    height: 400px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .selectors {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .chart-container {
+    height: 300px !important;
+  }
+  
+  button, select {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Mobile Pequeno */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  
+  h2 {
+    font-size: 1.2rem !important;
+  }
+  
+  .chart-container {
+    height: 250px !important;
+  }
+}

@@ -1,0 +1,30 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar .nav-links li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.navbar .nav-links li:hover {
+  text-decoration: underline;
+}
+
+

@@ -1,5 +1,5 @@
 {
-  "name": "simulador-cripto-pwa",
+  "name": "cripto-simulation",
   "version": "1.0.0",
   "description": "Simulador pessoal de criptomoedas estilo Binance/TradingView",
   "scripts": {
