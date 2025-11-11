@@ -47,6 +47,84 @@ open index.html
 start index.html  # Windows
 
 
+📲 Instalar como PWA
+
+1-Acesse o site pelo navegador
+
+2-Procure a opção "Instalar" ou "Adicionar à tela inicial"
+
+3-O app será instalado como um aplicativo nativo
+
+🏗 Estrutura do Projeto
+
+simulador_cripto_PWA/
+├── index.html              # Página principal
+├── manifest.json           # Configurações do PWA
+├── sw.js                   # Service Worker
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Estilos principais
+│   ├── js/
+│   │   └── script.js       # Lógica da aplicação
+│   └── icons/              # Ícones para PWA
+├── README.md
+└── LICENSE
+
+🔧 Funcionalidades Técnicas
+PWA Features
+✅ Web App Manifest - Metadados do aplicativo
+
+✅ Service Worker - Cache e funcionamento offline
+
+✅ Install Prompt - Instalação nativa
+
+✅ Responsive Design - Mobile-first
+
+Simulação de Criptomoedas
+📈 Visualização de cotações
+
+💼 Gestão de carteira virtual
+
+🔄 Atualização de preços
+
+📊 Gráficos de performance
+
+🚧 Desenvolvimento
+Próximas Funcionalidades
+Integração com API real de criptomoedas
+
+Gráficos interativos
+
+Modo escuro/claro
+
+Notificações de preço
+
+Exportação de dados
+
+Para Contribuir
+Fork o projeto
+
+Crie uma branch: git checkout -b feature/nova-funcionalidade
+
+Commit: git commit -m 'Adiciona nova funcionalidade'
+
+Push: git push origin feature/nova-funcionalidade
+
+Abra um Pull Request
+
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
+
+👨‍💻 Autor
+DLP. - GitHub
+
+⭐ Se este projeto te ajudou, deixe uma estrela no repositório!
+
+
+
+
+
+
 
 
 
