@@ -1,0 +1,2 @@
+let CACHE_NAME="simulador-cripto-cache-v1",urlsToCache=["/","./index.html","./manifest.webmanifest","./icons/icon-192x192.png","./icons/icon-512x512.png"];self.addEventListener("install",e=>{e.waitUntil(caches.open("simulador-cripto-cache-v1").then(e=>(console.log("Cache aberto"),e.addAll(urlsToCache))))}),self.addEventListener("fetch",e=>{e.respondWith(caches.match(e.request).then(t=>t||fetch(e.request)))});
+//# sourceMappingURL=service-worker.js.map

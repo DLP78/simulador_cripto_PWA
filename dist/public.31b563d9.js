@@ -207,11 +207,11 @@
       });
     }
   }
-})({"7cU3C":[function(require,module,exports,__globalThis) {
+})({"2Hhoa":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 54063;
+var HMR_SERVER_PORT = 54284;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -44399,6 +44399,6 @@ $RefreshReg$(_c, "TradingPanel");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lW6qc":[function() {},{}],"cJfds":[function() {},{}]},["7cU3C","a0t4e"], "a0t4e", "parcelRequire6431", {}, null, null, "http://localhost:54063")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lW6qc":[function() {},{}],"cJfds":[function() {},{}]},["2Hhoa","a0t4e"], "a0t4e", "parcelRequire6431", {}, null, null, "http://localhost:54284")
 
 //# sourceMappingURL=public.31b563d9.js.map
